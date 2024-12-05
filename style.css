@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Jim+Nightshade&family=New+Rocker&family=Permanent+Marker&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    scroll-behavior: smooth;
+    background-color: #efcef7;
+    color: rgb(41, 0, 40);
+
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    height: 90vh;
+    background-image: url(../img/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.header h1 {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: rgb(93, 24, 157);
+    font-size: 10em;
+    text-align: center;
+    padding-top: 30vh;
+    text-shadow: 0px 0px 10px lightpink;
+    transition: .3s all ease;
+}
+
+.header h1:hover {
+    text-shadow: 5px 5px 20px rgb(113, 20, 88);
+}
+
+
+/* Navigation */
+.nav {
+    height: 10vh;
+    background-color: rgb(242, 220, 238);
+    background-image: url(../img/INSERT\ BACK.png);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ol{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ol li {
+    display: inline-block;
+    margin: 22px 0 0 22px;
+}
+
+.nav ol li a {
+    color: rgb(41, 0, 40);
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #6f0f85;
+    transition: .3s all ease;
+    text-decoration-thickness: bold;
+}
+
+.nav ol li a:hover {
+    text-shadow: 5px 5px 15px #8d8090;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    border-left: 1px solid rgb(111, 3, 102);
+    border-right: 1px solid rgb(111, 3, 102);
+    padding: 20px;
+    text-align: center;
+}
+
+[alt="Album"]{
+    width: 500px;
+    height: 500px;
+    margin:20px 250px 20px ;
+}
+
+[alt="AlbumFront"]{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+}
+
+[alt="AlbumBack"]{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+}
+
+[alt="vinylrecord"]{
+    width: 250px;
+    height: 250px;
+    margin:auto;
+}
+[alt="t-shirt"]{
+    width: 250px;
+    height: 250px;
+    margin:auto;
+}
+[alt="mug"]{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+section {
+    width: 90%;
+    background-color: #aa6ff3;
+    margin: auto;
+    padding: 10px;
+}
+
+section button {
+    background-color: #f1b8ff;
+    border: none;
+    border-radius: 5%;
+    color: rgb(134, 7, 193);
+    padding: 20px;
+    text-align: center;
+    box-shadow: #33053c;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+section button:hover{
+    text-shadow: 5px 5px 15px #47099f;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.footer {
+    font-size: 15px;
+}
+  .footer, .copy {
+    font-size: 15px;
+    text-align: center;
+  }
